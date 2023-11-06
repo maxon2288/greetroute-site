@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/GUI.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.module.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/web/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/svg/soc-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/svg/soc-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/svg/soc-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/svg/soc-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/svg/soc-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/svg/soc-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +73,7 @@
       <workItem from="1698519918568" duration="20807000" />
       <workItem from="1699024685200" duration="1194000" />
       <workItem from="1699120965843" duration="5128000" />
-      <workItem from="1699286676968" duration="527000" />
+      <workItem from="1699286676968" duration="10059000" />
     </task>
     <servers />
   </component>

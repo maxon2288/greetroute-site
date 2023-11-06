@@ -33,21 +33,24 @@ export default function BottomOfPage() {
 								</form>
 							</div>
 							<div className='form-right'>
-								<h3>Напишите нам</h3>
 								<div className='soc'>
-									<a href='@/pages/page#'>
+									<a href='wa.me'>
 										<img src='/img/svg/soc-1.svg' alt='' />
+										<span>Наш WhatsApp</span>
 									</a>
-									<a href='@/pages/page#'>
+									<a href='mailto:greetroute.sales@gmail.com'>
 										<img src='/img/svg/soc-2.svg' alt='' />
+										<span>Наш Telegram</span>
 									</a>
-									<a href='@/pages/page#'>
+									<a href='mailto:greetroute.sales@gmail.com'>
 										<img src='/img/svg/soc-3.svg' alt='' />
+										<span>Наш Instagram</span>
+									</a>
+									<a href='mailto:greetroute.sales@gmail.com'>
+										<img src='/img/svg/soc-4.svg' alt='' />
+										<span>greetroute.sales@gmail.com</span>
 									</a>
 								</div>
-								<a href='mailto:greetroute.sales@gmail.com' className='form-right-mail'>
-									greetroute.sales@gmail.com
-								</a>
 							</div>
 						</div>
 					</div>
