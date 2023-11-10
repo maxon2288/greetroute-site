@@ -8,9 +8,9 @@ export default function Header() {
 			<div className='header'>
 				<div className='wrapper'>
 					<div>
-						<a href='/' className='header-logo'>
+						<Link href='/' className='header-logo'>
 							<img src='/img/svg/header-logo.svg' alt='' />
-						</a>
+						</Link>
 						<div className='header-menu'>
 							<ul>
 								<li>
@@ -60,11 +60,11 @@ export default function Header() {
 									<Link href='/#cases'>Кейсы</Link>
 								</li>
 								<li>
-									<Link href='/faq'>FAQ</Link>
+									<Link href='/faq'>Вопрос-ответ</Link>
 								</li>
 							</ul>
 						</div>
-						<a href='#' className='header-call'>
+						<a href='/#form' className='header-call'>
 							Связаться
 						</a>
 					</div>

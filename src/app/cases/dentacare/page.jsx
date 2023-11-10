@@ -11,10 +11,15 @@ export default function DentaCare() {
 	useEffect(() => {
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
+
+		document.querySelector('body').classList.remove('err404-body')
 		new WOW({ mobile: false }).init()
 	}, [])
 	return (
 		<>
+			<link rel='canonical' href='https://greetroute.kz/cases/dentacare' />
+			<meta name='description' content='Кейс компании GreetRoute. Оставьте заявку и мы вас проконсультируем!' />
+			<title>Кейс DentaCare | GreetRoute</title>
 			<Header />
 
 			<div className='case dentacare'>

@@ -12,13 +12,20 @@ export default function DentaCare() {
 	useEffect(() => {
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
+		document.querySelector('body').classList.remove('err404-body')
 		new WOW({ mobile: false }).init()
 	}, [])
 	return (
 		<>
+			<link rel='canonical' href='https://greetroute.kz/services/web' />
+			<meta name='description' content='Разработка сайтов в Казахстане. Оставьте заявку и мы вас проконсультируем!' />
+			<title>Разработка сайтов | GreetRoute</title>
 			<Header />
 			<div className='page-top'>
 				<h1 className='wow fadeInUp'>Разработка сайта</h1>
+				<p className='wow fadeInUp' data-wow-delay='0.2s'>
+					Этап воронки продаж. Разработка инструмента сбора заявок для вашего продукта.
+				</p>
 			</div>
 			<div className='wrapper'>
 				<div className='serv-items'>

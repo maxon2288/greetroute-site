@@ -13,10 +13,15 @@ export default function Home() {
 	useEffect(() => {
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
+
+		document.querySelector('body').classList.remove('err404-body')
 		new WOW({ mobile: false }).init()
 	}, [])
 	return (
 		<>
+			<link rel='canonical' href='https://greetroute.kz/' />
+			<meta name='description' content='GreetRoute - агентство по разработке и продвижению сайтов в Казахстане. Оставьте заявку и мы вас проконсультируем!' />
+			<title>Помогаем бизнесу найти клиентов | GreetRoute</title>
 			<Header />
 			<div className='first'>
 				<div className='wrapper'>
@@ -40,11 +45,11 @@ export default function Home() {
 								GreetRoute - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
 							</p>
 							<div className='wow fadeInUp' data-wow-delay='0.4s'>
-								<a href='#'>
+								<a href='#form'>
 									<img src='/img/svg/get-start.svg' alt='' />
 									Начать сотрудничать
 								</a>
-								<a href='#'>
+								<a href='#services'>
 									<div>
 										<svg width='28' height='28' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
 											<path
@@ -95,7 +100,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='services'>
+			<div className='services' id='services'>
 				<div className='wrapper'>
 					<div className='background-blurs'>
 						<div className='blur-1'></div>

@@ -2,13 +2,24 @@
 
 import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
-import Accordion from '@/app/components/ui/accordion/accordion'
 import Link from 'next/link'
-import Footer from '@/app/components/ui/footer'
+import { useEffect } from 'react'
 
+const isServer = typeof window === 'undefined'
+const WOW = !isServer ? require('wow.js') : null
 export default function DentaCare() {
+	useEffect(() => {
+		document.querySelector('body').style.visibility = 'visible'
+		document.querySelector('body').style.opacity = 1
+
+		document.querySelector('body').classList.remove('err404-body')
+		new WOW({ mobile: false }).init()
+	}, [])
 	return (
 		<>
+			<link rel='canonical' href='https://greetroute.kz/privacy-policy' />
+			<meta name='description' content='Политика конфиденциальности GreetRoute. Оставьте заявку и мы вас проконсультируем!' />
+			<title>Политика конфиденциальности | GreetRoute</title>
 			<Header />
 			<div className='policy'>
 				<div className='background-blurs'>
@@ -17,6 +28,10 @@ export default function DentaCare() {
 				</div>
 				<div className='wrapper'>
 					<div className='policy-container'>
+						<Link href='/' className='back'>
+							<img src='/img/svg/back.svg' alt='' />
+							Назад на главную
+						</Link>
 						<h1>Соглашение об обработке персональных данных</h1>
 						<p>
 							Мы понимаем всю важность соблюдения конфиденциальности личной информации, которую мы получаем от своих посетителей и собираем в дальнейшем. Подчеркиваем, что все сведения личного и персонального характера пользователи предоставляют нам исключительно на добровольной
@@ -53,7 +68,7 @@ export default function DentaCare() {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<BottomOfPage />
 		</>
 	)
 }

@@ -1,0 +1,16 @@
+User-Agent: *
+Allow: /
+Allow: /privacy-policy
+Allow: /faq
+Allow: /services/web
+Allow: /services/seo
+Allow: /services/context
+Allow: /services/uiux-design
+Allow: /services/branding
+Allow: /cases/webdentacare
+Allow: /cases/maroon
+Allow: /cases/dream-house
+Allow: /cases/multikassa
+Disallow: /404
+Sitemap: https://greetroute.kz/sitemap.xml
+Host: greetroute.kz

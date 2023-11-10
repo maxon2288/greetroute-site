@@ -2,7 +2,6 @@
 
 import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
-import Link from 'next/link'
 import { useEffect } from 'react'
 
 const isServer = typeof window === 'undefined'
@@ -12,10 +11,15 @@ export default function DentaCare() {
 	useEffect(() => {
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
+
+		document.querySelector('body').classList.remove('err404-body')
 		new WOW({ mobile: false }).init()
 	}, [])
 	return (
 		<>
+			<link rel='canonical' href='https://greetroute.kz/services/context' />
+			<meta name='description' content='Настройка контекстной рекламы в Казахстане. Оставьте заявку и мы вас проконсультируем!' />
+			<title>Контекстная реклама | GreetRoute</title>
 			<Header />
 			<div className='page-top'>
 				<h1 className='wow fadeInUp'>Контекстная реклама</h1>

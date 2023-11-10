@@ -2,39 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал анимации на страницах услуг и главной">
-      <change afterPath="$PROJECT_DIR$/public/img/svg/faq-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/header-serv-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/header-serv-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/header-serv-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/header-serv-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/header-serv-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/accordion/accordion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/accordion/accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/accordion/panel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ui/footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/faq/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/branding/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/context/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/seo/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/scss/animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/android-chrome-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/browserconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/mstile-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/safari-pinned-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/not-found.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/api/mail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/background-dots.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/background-dots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/case-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/case-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/case-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/case-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/case-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/case-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/case-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/case-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dentacare-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dentacare-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dentacare.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dentacare.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dream-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dream-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dream-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dream-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dream-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dream-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dream-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dream-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/dream-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/dream-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/content/first-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/first-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/footer-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/svg/footer-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/header-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/svg/header-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/maroon-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/maroon-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/maroon-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/maroon-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/maroon-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/maroon-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/multikassa.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/multikassa.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/accordion/accordion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/accordion/accordion.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/ui/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/faq/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/faq/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/branding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/branding/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/context/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/context/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/seo/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/seo/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/web/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/web/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/scss/GUI.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/GUI.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,34 +73,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/0personal/GreetRoute/greetroute-site/src/app/services&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Maxim\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/0personal/GreetRoute/greetroute-site/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Maxim\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\services" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\services" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\components\ui" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\cases" />
-      <recent name="C:\0personal\GreetRoute\greetroute-site" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\0personal\GreetRoute\greetroute-site\public\favicon" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\404" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\public\img\content" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\cases\dentacare" />
-      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
-      <recent name="C:\0personal\GreetRoute\greetroute-site\src\pages" />
-      <recent name="C:\0personal\GreetRoute\greetroute-site\src\static\fonts\ibmplexsans" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,7 +122,7 @@
       <workItem from="1699350808696" duration="11883000" />
       <workItem from="1699444449756" duration="12544000" />
       <workItem from="1699523897252" duration="9374000" />
-      <workItem from="1699616007802" duration="602000" />
+      <workItem from="1699616007802" duration="17990000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
@@ -115,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699308459771</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="сделал анимации на страницах услуг и главной">
+      <created>1699618886559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699618886559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +165,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/services/seo/page.jsx</url>
-          <line>102</line>
+          <line>109</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

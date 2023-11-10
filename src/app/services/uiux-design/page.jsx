@@ -12,13 +12,20 @@ export default function DentaCare() {
 	useEffect(() => {
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
+		document.querySelector('body').classList.remove('err404-body')
 		new WOW({ mobile: false }).init()
 	}, [])
 	return (
 		<>
+			<link rel='canonical' href='https://greetroute.kz/services/uiux-design' />
+			<meta name='description' content='UI/UX Дизайн для вашего сайта. Оставьте заявку и мы вас проконсультируем!' />
+			<title>UI/UX Дизайн | GreetRoute</title>
 			<Header />
 			<div className='page-top'>
 				<h1 className='wow fadeInUp'>UI/UX Дизайн</h1>
+				<p className='wow fadeInUp' data-wow-delay='0.2s'>
+					Продуманное проектирование и разработка дизайна вашего сайта в Figma.
+				</p>
 			</div>
 			<div className='wrapper'>
 				<div className='serv-items'>

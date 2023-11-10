@@ -3,7 +3,6 @@
 import React from 'react'
 
 import Panel from './panel'
-import style from './accordion.scss'
 
 class Accordion extends React.Component {
 	constructor(props) {
