@@ -3,8 +3,16 @@
 import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
 import Link from 'next/link'
+import { useEffect } from 'react'
 
-export default function DentaCare() {
+const isServer = typeof window === 'undefined'
+const WOW = !isServer ? require('wow.js') : null
+export default function DreamHouse() {
+	useEffect(() => {
+		document.querySelector('body').style.visibility = 'visible'
+		document.querySelector('body').style.opacity = 1
+		new WOW({ mobile: false }).init()
+	}, [])
 	return (
 		<>
 			<Header />

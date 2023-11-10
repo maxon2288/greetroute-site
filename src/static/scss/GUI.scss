@@ -12,6 +12,8 @@ body {
     overflow-x: hidden;
     min-height: 100vh;
     //background-color: #FAFAFA;
+    transition: 0.5s;
+    transition-delay: 0.3s;
 
     &.no-scroll {
         overflow: hidden;

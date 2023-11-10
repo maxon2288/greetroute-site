@@ -4,19 +4,29 @@ import Image from 'next/image'
 import Header from '@/app/components/ui/header'
 import Link from 'next/link'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
+import { useEffect } from 'react'
+
+const isServer = typeof window === 'undefined'
+const WOW = !isServer ? require('wow.js') : null
 
 export default function Home() {
+	useEffect(() => {
+		document.querySelector('body').style.visibility = 'visible'
+		document.querySelector('body').style.opacity = 1
+		new WOW({ mobile: false }).init()
+	}, [])
 	return (
 		<>
 			<Header />
 			<div className='first'>
 				<div className='wrapper'>
 					<div>
-						<div className='first-bg'>
+						<div className='first-bg wow fadeIn'>
 							<img src='img/content/first-bg.png' alt='' />
 						</div>
 						<div className='first-content'>
-							<div className='first-title'>
+							<div className='first-title wow fadeInUp'>
+								{/*Улучшаем маркетинг вашего бизнеса*/}
 								<h1>
 									<span>Помогаем</span> <span>бизнесу </span>
 									<span> найти</span> <span>клиентов</span>
@@ -26,10 +36,10 @@ export default function Home() {
 									<span> найти</span> <span>клиентов</span>
 								</h1>
 							</div>
-							<p>
+							<p className='wow fadeInUp' data-wow-delay='0.2s'>
 								GreetRoute - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
 							</p>
-							<div>
+							<div className='wow fadeInUp' data-wow-delay='0.4s'>
 								<a href='#'>
 									<img src='/img/svg/get-start.svg' alt='' />
 									Начать сотрудничать
@@ -91,34 +101,45 @@ export default function Home() {
 						<div className='blur-1'></div>
 					</div>
 					<div className='number'>
-						<div className='number-top'>2</div>
-						<div className='number-title'>Услуги</div>
+						<div className='number-top wow fadeInDown'>1</div>
+						<div className='number-title wow fadeIn' data-wow-delay='0.7s'>
+							Услуги
+						</div>
 					</div>
 					<div className='services-top'>
-						<h2>Что мы предлагаем?</h2>
-						<p>
+						<h2 className='wow fadeInUp'>Что мы предлагаем?</h2>
+						<p className='wow fadeInUp' data-wow-delay='0.2s'>
 							Качественные решения, которые <span>окупают</span> ценовой диапазон наших предложений
 						</p>
 					</div>
 					<div className='services-items'>
-						<Link href='/branding' className='services-item'>
-							<h3>Брендинг</h3>
+						<Link href='/services/branding' className='services-item wow fadeInUp' data-wow-delay='0.2s'>
+							<h3>
+								<img src='/img/svg/header-serv-2.svg' alt='' />
+								Брендинг
+							</h3>
 							<p>Разработка логотипа, фирменного стиля и подбор цветовой гаммы для идентичности вашего бренда на рынке.</p>
 							<div>
 								Подробнее
 								<img src='img/svg/button-arrow.svg' alt='' />
 							</div>
 						</Link>
-						<Link href='/uiux-design' className='services-item'>
-							<h3>UI/UX Дизайн</h3>
+						<Link href='/services/uiux-design' className='services-item wow fadeInUp' data-wow-delay='0.4s'>
+							<h3>
+								<img src='/img/svg/header-serv-3.svg' alt='' />
+								UI/UX Дизайн
+							</h3>
 							<p>Проектирование, разработка концепции, цветовая палитра, шрифты и стили. Макет каждой страницы.</p>
 							<div>
 								Подробнее
 								<img src='img/svg/button-arrow.svg' alt='' />
 							</div>
 						</Link>
-						<Link href='/website' className='services-item'>
-							<h3>Разработка сайта</h3>
+						<Link href='/services/web' className='services-item wow fadeInUp' data-wow-delay='0.6s'>
+							<h3>
+								<img src='/img/svg/header-serv-1.svg' alt='' />
+								Разработка сайта
+							</h3>
 							<p>Проектирование, дизайн-система, верстка, настройка базы данных и подключение к CMS системе</p>
 							<div>
 								Подробнее
@@ -126,16 +147,22 @@ export default function Home() {
 							</div>
 						</Link>
 						<div className='services-row'>
-							<Link href='/seo' className='services-item'>
-								<h3>SEO-продвижение</h3>
+							<Link href='/services/seo' className='services-item wow fadeInUp' data-wow-delay='0.8s'>
+								<h3>
+									<img src='/img/svg/header-serv-4.svg' alt='' />
+									SEO-продвижение
+								</h3>
 								<p>Оптимизация сайта для поднятия позиций сайта в результатах выдачи поисковых систем по определённым запросам пользователей в Google и Яндекс</p>
 								<div>
 									Подробнее
 									<img src='img/svg/button-arrow.svg' alt='' />
 								</div>
 							</Link>
-							<Link href='/context' className='services-item'>
-								<h3>Контекстная реклама</h3>
+							<Link href='/services/context' className='services-item wow fadeInUp' data-wow-delay='1s'>
+								<h3>
+									<img src='/img/svg/header-serv-5.svg' alt='' />
+									Контекстная реклама
+								</h3>
 								<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета и настройку показов в рекламных сетях или поисковых системах.</p>
 								<div>
 									Подробнее
@@ -146,29 +173,31 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='cases'>
+			<div className='cases' id={'cases'}>
 				<div className='wrapper'>
 					<div>
 						<div className='background-blurs'>
 							<div className='blur-2'></div>
 						</div>
 						<div className='number'>
-							<div className='number-top'>2</div>
-							<div className='number-title'>Кейсы</div>
+							<div className='number-top wow fadeInDown'>2</div>
+							<div className='number-title wow fadeIn' data-wow-delay='0.7s'>
+								Кейсы
+							</div>
 						</div>
 						<div className='cases-top'>
-							<h2>Наши работы</h2>
+							<h2 className='wow fadeInUp'>Наши работы</h2>
 						</div>
 						<div className='cases-items'>
 							<div className='cases-row'>
-								<Link href='/cases/dentacare/page' className='cases-item'>
+								<Link href='/cases/dentacare' className='cases-item wow fadeInUp' data-wow-delay='0.2s'>
 									<img src='img/content/case-1.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>DentaСare</h3>
 										<p>Стоматологическая клиника</p>
 									</div>
 								</Link>
-								<Link href='/cases/maroon' className='cases-item'>
+								<Link href='/cases/maroon' className='cases-item wow fadeInUp' data-wow-delay='0.4s'>
 									<img src='img/content/case-2.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>MAROON</h3>
@@ -177,14 +206,14 @@ export default function Home() {
 								</Link>
 							</div>
 							<div className='cases-row'>
-								<Link href='/cases/dream-house' className='cases-item'>
+								<Link href='/cases/dream-house' className='cases-item wow fadeInUp' data-wow-delay='0.2s'>
 									<img src='img/content/case-3.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>Dream House</h3>
 										<p>Агентство ремонта под ключ</p>
 									</div>
 								</Link>
-								<Link href='/cases/multikassa' className='cases-item'>
+								<Link href='/cases/multikassa' className='cases-item wow fadeInUp' data-wow-delay='0.4s'>
 									<img src='img/content/case-4.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>Multikassa</h3>
@@ -204,29 +233,33 @@ export default function Home() {
 				<div className='wrapper'>
 					<div>
 						<div className='number'>
-							<div className='number-top'>3</div>
-							<div className='number-title'>Преимущества</div>
+							<div className='number-top wow fadeInDown'>3</div>
+							<div className='number-title wow fadeIn' data-wow-delay='0.7s'>
+								Преимущества
+							</div>
 						</div>
 						<div className='reason-top'>
-							<h2>Почему мы?</h2>
-							<p>Основные преимущества перед другими агентствами</p>
+							<h2 className='wow fadeInUp'>Почему мы?</h2>
+							<p className=' wow fadeInUp' data-wow-delay='0.2s'>
+								Основные преимущества перед другими агентствами
+							</p>
 						</div>
 						<div className='reason-items'>
-							<div className='reason-item'>
+							<div className='reason-item wow fadeInUp' data-wow-delay='0.3s'>
 								<div>
 									<img src='img/svg/reason-1.svg' alt='' />
 								</div>
 								<h3>Стоимость</h3>
 								<p>Клиенты довольны результатами благодаря отличному сочетанию цены и качества.</p>
 							</div>
-							<div className='reason-item'>
+							<div className='reason-item wow fadeInUp' data-wow-delay='0.5s'>
 								<div>
 									<img src='img/svg/reason-2.svg' alt='' />
 								</div>
 								<h3>Окупаемость</h3>
 								<p>Наши услуги обеспечивает окупаемость благодаря привлечению клиентов.</p>
 							</div>
-							<div className='reason-item'>
+							<div className='reason-item wow fadeInUp' data-wow-delay='0.7s'>
 								<div>
 									<img src='img/svg/reason-3.svg' alt='' />
 								</div>
