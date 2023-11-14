@@ -4,6 +4,7 @@ import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import Image from 'next/image'
 
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
@@ -27,7 +28,7 @@ export default function Maroon() {
 					<div className='wrapper'>
 						<Link href='/' className='back'>
 							<img src='/img/svg/back.svg' alt='' />
-							Назад на главную
+							На главную
 						</Link>
 						<h1 className='wow fadeIn'>MAROON</h1>
 						<p className='wow fadeIn' data-wow-delay='0.2s'>
@@ -48,14 +49,14 @@ export default function Maroon() {
 						<div className='blur-1'></div>
 					</div>
 					<div className='case-devices'>
-						<img className='wow fadeInUp' src='/img/content/maroon-3.jpg' alt='' />
+						<Image width='1252' height='718' className='wow fadeInUp' src='/img/content/maroon-3.jpg' alt='' />
 					</div>
 					<div className='case-float wow fadeInUp'>
 						<div>
-							<img src='/img/content/maroon-1.jpg' alt='' />
+							<Image width='683' height='1840' src='/img/content/maroon-1.jpg' alt='' />
 						</div>
 						<div>
-							<img src='/img/content/maroon-2.jpg' alt='' />
+							<Image width='683' height='880' src='/img/content/maroon-2.jpg' alt='' />
 						</div>
 					</div>
 				</div>

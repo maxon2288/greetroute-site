@@ -27,7 +27,7 @@ export default function Home() {
 				<div className='wrapper'>
 					<div>
 						<div className='first-bg wow fadeIn'>
-							<img src='img/content/first-bg.png' alt='' />
+							<Image width='2448' height='1769' src='/img/content/first-bg.png' priority alt='' />
 						</div>
 						<div className='first-content'>
 							<div className='first-title wow fadeInUp'>
@@ -45,11 +45,11 @@ export default function Home() {
 								GreetRoute - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
 							</p>
 							<div className='wow fadeInUp' data-wow-delay='0.4s'>
-								<a href='#form'>
-									<img src='/img/svg/get-start.svg' alt='' />
+								<Link href='#form'>
+									<Image width='27' height='28' src='/img/svg/get-start.svg' alt='' />
 									Начать сотрудничать
-								</a>
-								<a href='#services'>
+								</Link>
+								<Link href='#services'>
 									<div>
 										<svg width='28' height='28' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
 											<path
@@ -94,7 +94,7 @@ export default function Home() {
 										</svg>
 										<span>Услуги</span>
 									</div>
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -126,7 +126,7 @@ export default function Home() {
 							<p>Разработка логотипа, фирменного стиля и подбор цветовой гаммы для идентичности вашего бренда на рынке.</p>
 							<div>
 								Подробнее
-								<img src='img/svg/button-arrow.svg' alt='' />
+								<img src='/img/svg/button-arrow.svg' alt='' />
 							</div>
 						</Link>
 						<Link href='/services/uiux-design' className='services-item wow fadeInUp' data-wow-delay='0.4s'>
@@ -137,7 +137,7 @@ export default function Home() {
 							<p>Проектирование, разработка концепции, цветовая палитра, шрифты и стили. Макет каждой страницы.</p>
 							<div>
 								Подробнее
-								<img src='img/svg/button-arrow.svg' alt='' />
+								<img src='/img/svg/button-arrow.svg' alt='' />
 							</div>
 						</Link>
 						<Link href='/services/web' className='services-item wow fadeInUp' data-wow-delay='0.6s'>
@@ -148,7 +148,7 @@ export default function Home() {
 							<p>Проектирование, дизайн-система, верстка, настройка базы данных и подключение к CMS системе</p>
 							<div>
 								Подробнее
-								<img src='img/svg/button-arrow.svg' alt='' />
+								<img src='/img/svg/button-arrow.svg' alt='' />
 							</div>
 						</Link>
 						<div className='services-row'>
@@ -160,7 +160,7 @@ export default function Home() {
 								<p>Оптимизация сайта для поднятия позиций сайта в результатах выдачи поисковых систем по определённым запросам пользователей в Google и Яндекс</p>
 								<div>
 									Подробнее
-									<img src='img/svg/button-arrow.svg' alt='' />
+									<img src='/img/svg/button-arrow.svg' alt='' />
 								</div>
 							</Link>
 							<Link href='/services/context' className='services-item wow fadeInUp' data-wow-delay='1s'>
@@ -171,7 +171,7 @@ export default function Home() {
 								<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета и настройку показов в рекламных сетях или поисковых системах.</p>
 								<div>
 									Подробнее
-									<img src='img/svg/button-arrow.svg' alt='' />
+									<img src='/img/svg/button-arrow.svg' alt='' />
 								</div>
 							</Link>
 						</div>
@@ -196,14 +196,14 @@ export default function Home() {
 						<div className='cases-items'>
 							<div className='cases-row'>
 								<Link href='/cases/dentacare' className='cases-item wow fadeInUp' data-wow-delay='0.2s'>
-									<img src='img/content/case-1.jpg' alt='' />
+									<Image width='684' height='628' src='/img/content/case-1.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>DentaСare</h3>
 										<p>Стоматологическая клиника</p>
 									</div>
 								</Link>
 								<Link href='/cases/maroon' className='cases-item wow fadeInUp' data-wow-delay='0.4s'>
-									<img src='img/content/case-2.jpg' alt='' />
+									<Image width='684' height='628' src='/img/content/case-2.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>MAROON</h3>
 										<p>Бренд косметики</p>
@@ -212,14 +212,14 @@ export default function Home() {
 							</div>
 							<div className='cases-row'>
 								<Link href='/cases/dream-house' className='cases-item wow fadeInUp' data-wow-delay='0.2s'>
-									<img src='img/content/case-3.jpg' alt='' />
+									<Image width='684' height='628' src='/img/content/case-3.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>Dream House</h3>
 										<p>Агентство ремонта под ключ</p>
 									</div>
 								</Link>
 								<Link href='/cases/multikassa' className='cases-item wow fadeInUp' data-wow-delay='0.4s'>
-									<img src='img/content/case-4.jpg' alt='' />
+									<Image width='684' height='628' src='/img/content/case-4.jpg' alt='' />
 									<div className='cases-overlay'>
 										<h3>Multikassa</h3>
 										<p>Обменный пункт в Дубае</p>
@@ -252,21 +252,21 @@ export default function Home() {
 						<div className='reason-items'>
 							<div className='reason-item wow fadeInUp' data-wow-delay='0.3s'>
 								<div>
-									<img src='img/svg/reason-1.svg' alt='' />
+									<Image width='30' height='30' src='/img/svg/reason-1.svg' alt='' />
 								</div>
 								<h3>Стоимость</h3>
 								<p>Клиенты довольны результатами благодаря отличному сочетанию цены и качества.</p>
 							</div>
 							<div className='reason-item wow fadeInUp' data-wow-delay='0.5s'>
 								<div>
-									<img src='img/svg/reason-2.svg' alt='' />
+									<Image width='30' height='30' src='/img/svg/reason-2.svg' alt='' />
 								</div>
 								<h3>Окупаемость</h3>
-								<p>Наши услуги обеспечивает окупаемость благодаря привлечению клиентов.</p>
+								<p>Наши услуги обеспечивают окупаемость благодаря привлечению клиентов.</p>
 							</div>
 							<div className='reason-item wow fadeInUp' data-wow-delay='0.7s'>
 								<div>
-									<img src='img/svg/reason-3.svg' alt='' />
+									<Image width='30' height='30' src='/img/svg/reason-3.svg' alt='' />
 								</div>
 								<h3>Качество</h3>
 								<p>Мы относимся к делу системно и серьезно, уделяя особое внимание качеству</p>

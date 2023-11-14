@@ -46,10 +46,10 @@ export default function DentaCare() {
 							<li>Подбор домена и хостинга</li>
 							<li>Отправка почты с формы обратной связи</li>
 						</ul>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 					<div className='serv-item popular wow fadeInUp' data-wow-delay='0.4s'>
 						<h3>Landing Page</h3>
@@ -67,10 +67,10 @@ export default function DentaCare() {
 							<li>СMS (при надобности)</li>
 							<li>Подбор домена и хостинга</li>
 						</ul>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 					<div className='serv-item wow fadeInUp' data-wow-delay='0.6s'>
 						<h3>Корпоративный сайт</h3>
@@ -87,10 +87,10 @@ export default function DentaCare() {
 							<li>СMS (при надобности)</li>
 							<li>Подбор домена и хостинга</li>
 						</ul>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -187,7 +187,7 @@ export default function DentaCare() {
 									<img src='/img/svg/reason-2.svg' alt='' />
 								</div>
 								<h3>Окупаемость</h3>
-								<p>Наши услуги обеспечивает окупаемость благодаря привлечению клиентов.</p>
+								<p>Наши услуги обеспечивают окупаемость благодаря привлечению клиентов.</p>
 							</div>
 							<div className='reason-item wow fadeInUp' data-wow-delay='0.7s'>
 								<div>

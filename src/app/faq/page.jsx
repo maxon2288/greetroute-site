@@ -50,7 +50,7 @@ export default function DentaCare() {
 									<img src='/img/svg/reason-2.svg' alt='' />
 								</div>
 								<h3>Окупаемость</h3>
-								<p>Наши услуги обеспечивает окупаемость благодаря привлечению клиентов.</p>
+								<p>Наши услуги обеспечивают окупаемость благодаря привлечению клиентов.</p>
 							</div>
 							<div className='reason-item'>
 								<div>

@@ -4,6 +4,7 @@ import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import Image from 'next/image'
 
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
@@ -27,7 +28,7 @@ export default function DreamHouse() {
 					<div className='wrapper'>
 						<Link href='/' className='back'>
 							<img src='/img/svg/back.svg' alt='' />
-							Назад на главную
+							На главную
 						</Link>
 						<h1 className='wow fadeIn'>Dream House</h1>
 						<p className='wow fadeIn' data-wow-delay='0.2s'>
@@ -45,10 +46,10 @@ export default function DreamHouse() {
 				</div>
 				<div className='case-images'>
 					<div className='case-devices'>
-						<img className='wow fadeInUp' src='/img/content/dream-1.png' alt='' />
-						<img className='wow fadeInUp' src='/img/content/dream-2.jpg' alt='' />
-						<img className='wow fadeInUp' src='/img/content/dream-3.jpg' alt='' />
-						<img className='wow fadeInUp' src='/img/content/dream-4.jpg' alt='' />
+						<Image width='1458' height='1012' className='wow fadeInUp' src='/img/content/dream-1.png' alt='' />
+						<Image width='1200' height='675' className='wow fadeInUp' src='/img/content/dream-2.jpg' alt='' />
+						<Image width='1200' height='675' className='wow fadeInUp' src='/img/content/dream-3.jpg' alt='' />
+						<Image width='1200' height='675' className='wow fadeInUp' src='/img/content/dream-4.jpg' alt='' />
 					</div>
 				</div>
 				<div className='case-step'>

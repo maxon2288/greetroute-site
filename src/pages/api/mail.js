@@ -1,7 +1,7 @@
 const mail = require('@sendgrid/mail')
 
 export default async (req, res) => {
-	mail.setApiKey('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')
+	mail.setApiKey('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')
 	const body = JSON.parse(req.body)
 	const message = `
 	<table width='100%' cellpadding='0' cellspacing='0'>
@@ -46,6 +46,7 @@ export default async (req, res) => {
     </table>
 	`
 	const data = {
+		// to: 'info@greetroute.kz',
 		to: 'maxswim228@gmail.com',
 		// from: 'greetroute.access@gmail.com',
 		from: 'syncupweb@gmail.com',

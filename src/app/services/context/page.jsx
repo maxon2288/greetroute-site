@@ -3,6 +3,7 @@
 import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
 import { useEffect } from 'react'
+import Link from 'next/link'
 
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
@@ -43,10 +44,10 @@ export default function DentaCare() {
 							<li>Настройка бюджета и ставок.</li>
 							<li>Мониторинг и оптимизация результатов.</li>
 						</ul>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 					<div className='serv-item popular wow fadeInUp' data-wow-delay='0.4s'>
 						<h3>Комплексная реклама</h3>
@@ -59,10 +60,10 @@ export default function DentaCare() {
 							<li>Проведение A/B-тестов для оптимизации объявлений и целевых страниц.</li>
 							<li>Регулярное отслеживание аналитики и адаптация стратегии под изменения в требованиях рынка и аудитории.</li>
 						</ul>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 					<div className='serv-item wow fadeInUp' data-wow-delay='0.6s'>
 						<h3>Google Ads</h3>
@@ -73,10 +74,10 @@ export default function DentaCare() {
 							<li>Настройка бюджета и ставок.</li>
 							<li>Мониторинг и оптимизация результатов.</li>
 						</ul>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -150,7 +151,7 @@ export default function DentaCare() {
 									<img src='/img/svg/reason-2.svg' alt='' />
 								</div>
 								<h3>Окупаемость</h3>
-								<p>Наши услуги обеспечивает окупаемость благодаря привлечению клиентов.</p>
+								<p>Наши услуги обеспечивают окупаемость благодаря привлечению клиентов.</p>
 							</div>
 							<div className='reason-item wow fadeInUp' data-wow-delay='0.7s'>
 								<div>

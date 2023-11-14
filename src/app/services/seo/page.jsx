@@ -3,6 +3,7 @@
 import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
 import { useEffect } from 'react'
+import Link from 'next/link'
 
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
@@ -41,10 +42,10 @@ export default function DentaCare() {
 							Продвижение корпоративных сайтов (сайтов-визиток) и сайтов, предоставляющих услуги, имеет свои особенности в контексте SEO в Яндексе и Google. Для увеличения эффективности и воздействия на позиционирование необходимо уделить внимание самим услугам, их преимуществам,
 							расширению брендового охвата и расширению семантики в ответ на информационные запросы.
 						</p>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 					<div className='serv-item wow fadeInUp' data-wow-delay='0.4s'>
 						<h3>Магазин</h3>
@@ -53,10 +54,10 @@ export default function DentaCare() {
 							Продвижение онлайн-магазина способствует увеличению потока посетителей из поисковых систем и повышению эффективности превращения посещений в заказы. Мы осуществляем глубокий анализ показателей работы, уделяем внимание поведенческим факторам и структуре сайта. При
 							расширении семантического ядра акцентируем внимание на ключевых направлениях продаж, учитывая сезонные колебания и специфику ассортимента.
 						</p>
-						<a href='#'>
+						<Link href='/#form'>
 							Заказать
 							<img src='/img/svg/serv-icon.svg' alt='' />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -132,7 +133,7 @@ export default function DentaCare() {
 									<img src='/img/svg/reason-2.svg' alt='' />
 								</div>
 								<h3>Окупаемость</h3>
-								<p>Наши услуги обеспечивает окупаемость благодаря привлечению клиентов.</p>
+								<p>Наши услуги обеспечивают окупаемость благодаря привлечению клиентов.</p>
 							</div>
 							<div className='reason-item wow fadeInUp' data-wow-delay='0.7s'>
 								<div>

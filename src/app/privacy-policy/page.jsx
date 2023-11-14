@@ -30,7 +30,7 @@ export default function DentaCare() {
 					<div className='policy-container'>
 						<Link href='/' className='back'>
 							<img src='/img/svg/back.svg' alt='' />
-							Назад на главную
+							На главную
 						</Link>
 						<h1>Соглашение об обработке персональных данных</h1>
 						<p>

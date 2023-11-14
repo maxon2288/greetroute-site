@@ -25,7 +25,7 @@ export default function DentaCare() {
 					<div className='err404-desc'>
 						К сожалению, такой страницы не существует. <br /> Ее удалили или еще не создали.
 					</div>
-					<a href='/'>На главную</a>
+					<Link href='/'>На главную</Link>
 				</div>
 				<Footer />
 			</div>

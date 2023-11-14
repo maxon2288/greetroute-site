@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Footer from '@/app/components/ui/footer'
+import Image from 'next/image'
 
 export default function BottomOfPage() {
 	async function handleOnSubmit(e) {
@@ -29,7 +30,7 @@ export default function BottomOfPage() {
 				<div className='wrapper'>
 					<div>
 						<div className='form-top'>
-							<h2 className='wow fadeInUp'>Остались вопросы?</h2>
+							<h2 className='wow fadeInUp'>Начнем сотрудничать?</h2>
 							<p className='wow fadeInUp' data-wow-delay='0.2s'>
 								Заполните форму и наш специалист свяжется с вами <span>в течении 20 минут</span>
 							</p>
@@ -59,20 +60,20 @@ export default function BottomOfPage() {
 							</div>
 							<div className='form-right'>
 								<div className='soc'>
-									<a href='https://wa.me/+77776740559' className=' wow fadeInUp' data-wow-delay='0.3s'>
-										<img src='/img/svg/soc-1.svg' alt='' />
+									<a href='https://wa.me/+77776740559' className=' wow fadeInUp' target='_blank' data-wow-delay='0.3s'>
+										<Image width='32' height='32' src='/img/svg/soc-1.svg' alt='' />
 										<span>Наш WhatsApp</span>
 									</a>
-									<a href='https://t.me/greetroute' className='wow fadeInUp' data-wow-delay='0.4s'>
-										<img src='/img/svg/soc-2.svg' alt='' />
+									<a href='https://t.me/greetroute' className='wow fadeInUp' target='_blank' data-wow-delay='0.4s'>
+										<Image width='32' height='32' src='/img/svg/soc-2.svg' alt='' />
 										<span>Наш Telegram</span>
 									</a>
-									<a href='https://instagram.com/greetroute' className='wow fadeInUp' data-wow-delay='0.5s'>
-										<img src='/img/svg/soc-3.svg' alt='' />
+									<a href='https://instagram.com/greetroute' className='wow fadeInUp' target='_blank' data-wow-delay='0.5s'>
+										<Image width='32' height='32' src='/img/svg/soc-3.svg' alt='' />
 										<span>Наш Instagram</span>
 									</a>
-									<a href='mailto:greetroute.sales@gmail.com' className='wow fadeInUp' data-wow-delay='0.6s'>
-										<img src='/img/svg/soc-4.svg' alt='' />
+									<a href='mailto:greetroute.sales@gmail.com' className='wow fadeInUp' target='_blank' data-wow-delay='0.6s'>
+										<Image width='32' height='32' src='/img/svg/soc-4.svg' alt='' />
 										<span>sales@greetroute.kz</span>
 									</a>
 								</div>
