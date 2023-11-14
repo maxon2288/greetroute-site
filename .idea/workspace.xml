@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал анимации на страницах услуг и главной">
-      <change beforePath="$PROJECT_DIR$/src/static/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-SemiBold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,7 @@
       <workItem from="1699523897252" duration="9374000" />
       <workItem from="1699616007802" duration="17990000" />
       <workItem from="1699810196111" duration="494000" />
-      <workItem from="1699842114922" duration="13120000" />
+      <workItem from="1699842114922" duration="13427000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
