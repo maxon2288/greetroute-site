@@ -3,24 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал анимации на страницах услуг и главной">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ui/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/faq/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/faq/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/not-found.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/branding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/branding/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/context/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/context/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/seo/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/seo/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/web/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/web/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/mail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +75,7 @@
       <workItem from="1699523897252" duration="9374000" />
       <workItem from="1699616007802" duration="17990000" />
       <workItem from="1699810196111" duration="494000" />
-      <workItem from="1699842114922" duration="11929000" />
+      <workItem from="1699842114922" duration="12628000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
@@ -109,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699618886559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="сделал анимации на страницах услуг и главной">
+      <created>1699923160598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699923160598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

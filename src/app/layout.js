@@ -3,7 +3,6 @@
 import '@/static/scss/reset.scss'
 import '@/static/scss/normalize.scss'
 import '@/static/scss/fonts.scss'
-import '@/static/scss/fonts.scss'
 import '@/static/scss/animate.scss'
 import '@/static/scss/mixins.scss'
 import '@/static/scss/GUI.scss'
