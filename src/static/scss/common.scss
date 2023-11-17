@@ -691,18 +691,20 @@
                 }
 
                 &:hover {
-                    div {
-                        &:before {
-                            background-color: transparent !important;
-                        }
+                    @include media-min-m {
+                        div {
+                            &:before {
+                                background-color: transparent !important;
+                            }
 
-                        span {
-                            -webkit-text-fill-color: #fff;
-                        }
+                            span {
+                                -webkit-text-fill-color: #fff;
+                            }
 
-                        svg {
-                            path {
-                                stroke: #fff;
+                            svg {
+                                path {
+                                    stroke: #fff;
+                                }
                             }
                         }
                     }
@@ -982,6 +984,10 @@
             margin-bottom: 40px;
         }
         @include media-max-s {
+            min-width: 300px;
+            max-width: 300px;
+        }
+        @media screen and (max-width: 320px) {
             min-width: 240px;
             max-width: 240px;
         }
