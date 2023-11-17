@@ -11,6 +11,9 @@ const WOW = !isServer ? require('wow.js') : null
 
 export default function Home() {
 	useEffect(() => {
+		if (!window.location.hash) {
+			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+		}
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
 
@@ -151,30 +154,28 @@ export default function Home() {
 								<img src='/img/svg/button-arrow.svg' alt='' />
 							</div>
 						</Link>
-						<div className='services-row'>
-							<Link href='/services/seo' className='services-item wow fadeInUp' data-wow-delay='0.8s'>
-								<h3>
-									<img src='/img/svg/header-serv-4.svg' alt='' />
-									SEO-продвижение
-								</h3>
-								<p>Оптимизация сайта для поднятия позиций сайта в результатах выдачи поисковых систем по определённым запросам пользователей в Google и Яндекс</p>
-								<div>
-									Подробнее
-									<img src='/img/svg/button-arrow.svg' alt='' />
-								</div>
-							</Link>
-							<Link href='/services/context' className='services-item wow fadeInUp' data-wow-delay='1s'>
-								<h3>
-									<img src='/img/svg/header-serv-5.svg' alt='' />
-									Контекстная реклама
-								</h3>
-								<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета и настройку показов в рекламных сетях или поисковых системах.</p>
-								<div>
-									Подробнее
-									<img src='/img/svg/button-arrow.svg' alt='' />
-								</div>
-							</Link>
-						</div>
+						<Link href='/services/seo' className='services-item services-item-50 wow fadeInUp' data-wow-delay='0.8s'>
+							<h3>
+								<img src='/img/svg/header-serv-4.svg' alt='' />
+								SEO-продвижение
+							</h3>
+							<p>Оптимизация сайта для поднятия позиций сайта в результатах выдачи поисковых систем по определённым запросам пользователей в Google и Яндекс</p>
+							<div>
+								Подробнее
+								<img src='/img/svg/button-arrow.svg' alt='' />
+							</div>
+						</Link>
+						<Link href='/services/context' className='services-item services-item-50 wow fadeInUp' data-wow-delay='1s'>
+							<h3>
+								<img src='/img/svg/header-serv-5.svg' alt='' />
+								Контекстная реклама
+							</h3>
+							<p>Включает выбор ключевых слов и тематики, создание рекламных объявлений, установку бюджета и настройку показов в рекламных сетях или поисковых системах.</p>
+							<div>
+								Подробнее
+								<img src='/img/svg/button-arrow.svg' alt='' />
+							</div>
+						</Link>
 					</div>
 				</div>
 			</div>

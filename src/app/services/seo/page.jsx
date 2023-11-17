@@ -10,6 +10,9 @@ const WOW = !isServer ? require('wow.js') : null
 
 export default function DentaCare() {
 	useEffect(() => {
+		if (!window.location.hash) {
+			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+		}
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
 
@@ -22,42 +25,47 @@ export default function DentaCare() {
 			<meta name='description' content='SEO-продвижение в Казахстане. Оставьте заявку и мы вас проконсультируем!' />
 			<title>SEO-продвижение | GreetRoute</title>
 			<Header />
-			<div className='page-top'>
-				<h1 className='wow fadeInUp'>SEO-продвижение</h1>
-				<p className='wow fadeInUp' data-wow-delay='0.2s'>
-					Мы оптимизируем веб-сайт, улучшаем его дизайн и информационное наполнение с целью привлечения выгодных клиентов из поисковых систем.
-				</p>
-			</div>
 
-			<div className='wrapper serv-items-container serv-items-50'>
-				<div className='serv-items serv-items-50'>
-					<div className='background-blurs'>
-						<div className='blur-1'></div>
-						<div className='blur-2'></div>
-					</div>
-					<div className='serv-item popular wow fadeInUp' data-wow-delay='0.2s'>
-						<h3>Корпоративный</h3>
-						<span>от 180 000 ₸</span>
-						<p>
-							Продвижение корпоративных сайтов (сайтов-визиток) и сайтов, предоставляющих услуги, имеет свои особенности в контексте SEO в Яндексе и Google. Для увеличения эффективности и воздействия на позиционирование необходимо уделить внимание самим услугам, их преимуществам,
-							расширению брендового охвата и расширению семантики в ответ на информационные запросы.
-						</p>
-						<Link href='/#form'>
-							Заказать
-							<img src='/img/svg/serv-icon.svg' alt='' />
-						</Link>
-					</div>
-					<div className='serv-item wow fadeInUp' data-wow-delay='0.4s'>
-						<h3>Магазин</h3>
-						<span>от 700 000 ₸</span>
-						<p>
-							Продвижение онлайн-магазина способствует увеличению потока посетителей из поисковых систем и повышению эффективности превращения посещений в заказы. Мы осуществляем глубокий анализ показателей работы, уделяем внимание поведенческим факторам и структуре сайта. При
-							расширении семантического ядра акцентируем внимание на ключевых направлениях продаж, учитывая сезонные колебания и специфику ассортимента.
-						</p>
-						<Link href='/#form'>
-							Заказать
-							<img src='/img/svg/serv-icon.svg' alt='' />
-						</Link>
+			<div className='serv-container'>
+				<div className='background-blurs'>
+					<div className='blur-1'></div>
+					<div className='blur-2'></div>
+				</div>
+				<div className='page-top'>
+					<h1 className='wow fadeInUp'>SEO-продвижение</h1>
+					<p className='wow fadeInUp' data-wow-delay='0.2s'>
+						Мы оптимизируем веб-сайт, улучшаем его дизайн и информационное наполнение с целью привлечения выгодных клиентов из поисковых систем.
+					</p>
+				</div>
+
+				<div className='wrapper serv-items-container serv-items-50'>
+					<div className='serv-items-content'>
+						<div className='serv-items serv-items-50'>
+							<div className='serv-item popular wow fadeInUp' data-wow-delay='0.2s'>
+								<h3>Корпоративный</h3>
+								<span>от 180 000 ₸</span>
+								<p>
+									Продвижение корпоративных сайтов (сайтов-визиток) и сайтов, предоставляющих услуги, имеет свои особенности в контексте SEO в Яндексе и Google. Для увеличения эффективности и воздействия на позиционирование необходимо уделить внимание самим услугам, их
+									преимуществам, расширению брендового охвата и расширению семантики в ответ на информационные запросы.
+								</p>
+								<Link href='/#form'>
+									Заказать
+									<img src='/img/svg/serv-icon.svg' alt='' />
+								</Link>
+							</div>
+							<div className='serv-item wow fadeInUp' data-wow-delay='0.4s'>
+								<h3>Магазин</h3>
+								<span>от 700 000 ₸</span>
+								<p>
+									Продвижение онлайн-магазина способствует увеличению потока посетителей из поисковых систем и повышению эффективности превращения посещений в заказы. Мы осуществляем глубокий анализ показателей работы, уделяем внимание поведенческим факторам и структуре сайта. При
+									расширении семантического ядра акцентируем внимание на ключевых направлениях продаж, учитывая сезонные колебания и специфику ассортимента.
+								</p>
+								<Link href='/#form'>
+									Заказать
+									<img src='/img/svg/serv-icon.svg' alt='' />
+								</Link>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

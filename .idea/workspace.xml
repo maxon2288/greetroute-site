@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал анимации на страницах услуг и главной">
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/ibmplexsans/IBMPlexSans-SemiBold.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/dentacare/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/dream-house/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/maroon/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cases/multikassa/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ui/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ui/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/faq/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/faq/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/not-found.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/privacy-policy/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/branding/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/branding/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/context/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/context/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/seo/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/seo/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/uiux-design/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/web/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/web/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/GUI.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/GUI.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/scss/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/vars.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +69,11 @@
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src\static\fonts\ibmplexsans" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\public\favicon" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\404" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\public\img\content" />
-      <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\cases\dentacare" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +97,10 @@
       <workItem from="1699523897252" duration="9374000" />
       <workItem from="1699616007802" duration="17990000" />
       <workItem from="1699810196111" duration="494000" />
-      <workItem from="1699842114922" duration="13427000" />
+      <workItem from="1699842114922" duration="14163000" />
+      <workItem from="1699967161208" duration="1546000" />
+      <workItem from="1700047993342" duration="23476000" />
+      <workItem from="1700223246436" duration="11713000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
@@ -137,7 +157,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/services/seo/page.jsx</url>
-          <line>110</line>
+          <line>118</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

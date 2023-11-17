@@ -9,6 +9,9 @@ const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
 export default function DentaCare() {
 	useEffect(() => {
+		if (!window.location.hash) {
+			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+		}
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
 
@@ -21,12 +24,19 @@ export default function DentaCare() {
 			<meta name='description' content='Часто задаваемые вопросы наших клиентов. Оставьте заявку и мы вас проконсультируем!' />
 			<title>Часто задаваемые вопросы | GreetRoute</title>
 			<Header />
-			<div className='page-top'>
-				<h1>Вопрос-ответ</h1>
+			<div className='serv-container'>
+				<div className='background-blurs'>
+					<div className='blur-1'></div>
+					<div className='blur-2'></div>
+				</div>
+				<div className='page-top'>
+					<h1>Вопрос-ответ</h1>
+				</div>
+				<div className='wrapper'>
+					<Accordion />
+				</div>
 			</div>
-			<div className='wrapper'>
-				<Accordion />
-			</div>
+
 			<div className='reason'>
 				<div className='background-blurs'>
 					<div className='blur-1'></div>

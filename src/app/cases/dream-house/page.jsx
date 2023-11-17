@@ -10,6 +10,9 @@ const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
 export default function DreamHouse() {
 	useEffect(() => {
+		if (!window.location.hash) {
+			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+		}
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
 

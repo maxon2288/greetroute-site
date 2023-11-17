@@ -10,6 +10,9 @@ const WOW = !isServer ? require('wow.js') : null
 
 export default function DentaCare() {
 	useEffect(() => {
+		if (!window.location.hash) {
+			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+		}
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
 		document.querySelector('body').classList.remove('err404-body')
@@ -21,79 +24,84 @@ export default function DentaCare() {
 			<meta name='description' content='Разработка сайтов в Казахстане. Оставьте заявку и мы вас проконсультируем!' />
 			<title>Разработка сайтов | GreetRoute</title>
 			<Header />
-			<div className='page-top'>
-				<h1 className='wow fadeInUp'>Разработка сайта</h1>
-				<p className='wow fadeInUp' data-wow-delay='0.2s'>
-					Этап воронки продаж. Разработка инструмента сбора заявок для вашего продукта.
-				</p>
-			</div>
-			<div className='wrapper'>
-				<div className='serv-items'>
-					<div className='background-blurs'>
-						<div className='blur-1'></div>
-						<div className='blur-2'></div>
-					</div>
-					<div className='serv-item wow fadeInUp' data-wow-delay='0.2s'>
-						<h3>Быстрый старт</h3>
-						<span>100 000 ₸</span>
-						<p>Есть возможность подключения популярных конструкторов, либо разработки уникального сайта</p>
-						<ul>
-							<li>UX-проектирование</li>
-							<li>Копирайт</li>
-							<li>UI/UX дизайн</li>
-							<li>Front-end</li>
-							<li>СMS (при надобности)</li>
-							<li>Подбор домена и хостинга</li>
-							<li>Отправка почты с формы обратной связи</li>
-						</ul>
-						<Link href='/#form'>
-							Заказать
-							<img src='/img/svg/serv-icon.svg' alt='' />
-						</Link>
-					</div>
-					<div className='serv-item popular wow fadeInUp' data-wow-delay='0.4s'>
-						<h3>Landing Page</h3>
-						<span>от 180 000 ₸</span>
-						<p>Для подробного описания продукта, услуги либо образовательного курса</p>
-						<ul>
-							<li>5-10 инфоблоков</li>
-							<li>Средняя сложность технического выполнения</li>
-							<li>Анимации</li>
-							<li>Интерактивные элементы средней сложности (слайдшоу и галереи, карты, видеоплееры )</li>
-							<li>UX-проектирование</li>
-							<li>Копирайт</li>
-							<li>UI/UX дизайн</li>
-							<li>Front-end</li>
-							<li>СMS (при надобности)</li>
-							<li>Подбор домена и хостинга</li>
-						</ul>
-						<Link href='/#form'>
-							Заказать
-							<img src='/img/svg/serv-icon.svg' alt='' />
-						</Link>
-					</div>
-					<div className='serv-item wow fadeInUp' data-wow-delay='0.6s'>
-						<h3>Корпоративный сайт</h3>
-						<span>от 700 000 ₸</span>
-						<p>Для представления бизнеса, услуг, контактов информации.</p>
-						<ul>
-							<li>Сложный функционал</li>
-							<li>Продвинутые анимации</li>
-							<li>Сложные интерактивные элементы</li>
-							<li>UX-проектирование</li>
-							<li>Копирайт</li>
-							<li>UI/UX дизайн</li>
-							<li>Front-end</li>
-							<li>СMS (при надобности)</li>
-							<li>Подбор домена и хостинга</li>
-						</ul>
-						<Link href='/#form'>
-							Заказать
-							<img src='/img/svg/serv-icon.svg' alt='' />
-						</Link>
+			<div className='serv-container'>
+				<div className='background-blurs'>
+					<div className='blur-1'></div>
+					<div className='blur-2'></div>
+				</div>
+				<div className='page-top'>
+					<h1 className='wow fadeInUp'>Разработка сайта</h1>
+					<p className='wow fadeInUp' data-wow-delay='0.2s'>
+						Этап воронки продаж. Разработка инструмента сбора заявок для вашего продукта.
+					</p>
+				</div>
+				<div className='wrapper'>
+					<div className='serv-items-content'>
+						<div className='serv-items'>
+							<div className='serv-item wow fadeInUp' data-wow-delay='0.2s'>
+								<h3>Быстрый старт</h3>
+								<span>100 000 ₸</span>
+								<p>Есть возможность подключения популярных конструкторов, либо разработки уникального сайта</p>
+								<ul>
+									<li>UX-проектирование</li>
+									<li>Копирайт</li>
+									<li>UI/UX дизайн</li>
+									<li>Front-end</li>
+									<li>СMS (при надобности)</li>
+									<li>Подбор домена и хостинга</li>
+									<li>Отправка почты с формы обратной связи</li>
+								</ul>
+								<Link href='/#form'>
+									Заказать
+									<img src='/img/svg/serv-icon.svg' alt='' />
+								</Link>
+							</div>
+							<div className='serv-item popular wow fadeInUp' data-wow-delay='0.4s'>
+								<h3>Landing Page</h3>
+								<span>от 180 000 ₸</span>
+								<p>Для подробного описания продукта, услуги либо образовательного курса</p>
+								<ul>
+									<li>5-10 инфоблоков</li>
+									<li>Средняя сложность технического выполнения</li>
+									<li>Анимации</li>
+									<li>Интерактивные элементы средней сложности (слайдшоу и галереи, карты, видеоплееры )</li>
+									<li>UX-проектирование</li>
+									<li>Копирайт</li>
+									<li>UI/UX дизайн</li>
+									<li>Front-end</li>
+									<li>СMS (при надобности)</li>
+									<li>Подбор домена и хостинга</li>
+								</ul>
+								<Link href='/#form'>
+									Заказать
+									<img src='/img/svg/serv-icon.svg' alt='' />
+								</Link>
+							</div>
+							<div className='serv-item wow fadeInUp' data-wow-delay='0.6s'>
+								<h3>Корпоративный сайт</h3>
+								<span>от 700 000 ₸</span>
+								<p>Для представления бизнеса, услуг, контактов информации.</p>
+								<ul>
+									<li>Сложный функционал</li>
+									<li>Продвинутые анимации</li>
+									<li>Сложные интерактивные элементы</li>
+									<li>UX-проектирование</li>
+									<li>Копирайт</li>
+									<li>UI/UX дизайн</li>
+									<li>Front-end</li>
+									<li>СMS (при надобности)</li>
+									<li>Подбор домена и хостинга</li>
+								</ul>
+								<Link href='/#form'>
+									Заказать
+									<img src='/img/svg/serv-icon.svg' alt='' />
+								</Link>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+
 			<div className='case-step serv-step'>
 				<div className='wrapper'>
 					<div className='case-step-top wow fadeInUp'>

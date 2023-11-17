@@ -10,6 +10,9 @@ const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
 export default function Multikassa() {
 	useEffect(() => {
+		if (!window.location.hash) {
+			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+		}
 		document.querySelector('body').style.visibility = 'visible'
 		document.querySelector('body').style.opacity = 1
 
@@ -109,11 +112,6 @@ export default function Multikassa() {
 								<div className='case-step-desc'>Осуществили оптимизацию сайта с целью улучшения производительности, увеличения скорости загрузки страниц и оптимизации изображений. Также обеспечили безопасность сайта путем внедрения мер по защите от атак и уязвимостей.</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className='case-stack'>
-					<div className='background-blurs'>
-						<div className='blur-1'></div>
 					</div>
 				</div>
 				<div className='case-context'>

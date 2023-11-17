@@ -72,9 +72,9 @@ export default function BottomOfPage() {
 										<Image width='32' height='32' src='/img/svg/soc-3.svg' alt='' />
 										<span>Наш Instagram</span>
 									</a>
-									<a href='mailto:greetroute.sales@gmail.com' className='wow fadeInUp' target='_blank' data-wow-delay='0.6s'>
+									<a href='mailto:greetroute@gmail.com' className='wow fadeInUp' target='_blank' data-wow-delay='0.6s'>
 										<Image width='32' height='32' src='/img/svg/soc-4.svg' alt='' />
-										<span>sales@greetroute.kz</span>
+										<span>greetroute@gmail.com</span>
 									</a>
 								</div>
 							</div>

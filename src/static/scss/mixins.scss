@@ -37,11 +37,11 @@
     }
 }
 
-//@mixin media-max-xl {
-//	@media screen and (max-width: $breakpoint-xlarge-max) {
-//		@content;
-//	}
-//}
+@mixin media-max-xl {
+    @media screen and (max-width: $breakpoint-xlarge-max) {
+        @content;
+    }
+}
 
 // min-width queries
 @mixin media-min-s {
@@ -62,11 +62,11 @@
     }
 }
 
-//@mixin media-min-xl {
-//	@media screen and (max-width: $breakpoint-xlarge-min) {
-//		@content;
-//	}
-//}
+@mixin media-min-xl {
+    @media screen and (max-width: $breakpoint-xlarge-min) {
+        @content;
+    }
+}
 
 // Hover, Links
 @mixin hover-opacity {
@@ -95,6 +95,7 @@
 
 @mixin button-primary {
     height: 54px;
+    min-height: 54px;
     padding-left: 32px;
     padding-right: 32px;
     background-color: #222;
@@ -114,6 +115,12 @@
     }
     &:active {
         opacity: 0.7;
+    }
+    @include media-max-s {
+        height: 48px;
+        min-height: 48px;
+
+        font-size: 18px;
     }
 }
 
@@ -142,3 +149,38 @@
 //        opacity: 0.7;
 //    }
 //}
+
+@mixin blob-size {
+    width: 600px;
+    height: 600px;
+    @include media-max-xl {
+        width: 400px;
+        height: 400px;
+    }
+    @include media-max-m {
+        width: 150px;
+        height: 150px;
+        filter: blur(40px)
+    }
+}
+
+@mixin dynamic-grid {
+    max-width: 100%;
+
+    & > * {
+        display: flex;
+        flex-wrap: nowrap;
+        @include media-max-m {
+            overflow-scrolling: touch;
+            -webkit-overflow-scrolling: touch;
+            overflow-y: auto;
+            margin-left: -24px;
+            margin-right: -24px;
+            padding-left: 24px;
+            padding-right: 24px;
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
+}
