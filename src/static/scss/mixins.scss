@@ -45,25 +45,25 @@
 
 // min-width queries
 @mixin media-min-s {
-    @media screen and (max-width: $breakpoint-small-min) {
+    @media screen and (min-width: $breakpoint-small-min) {
         @content;
     }
 }
 
 @mixin media-min-m {
-    @media screen and (max-width: $breakpoint-medium-min) {
+    @media screen and (min-width: $breakpoint-medium-min) {
         @content;
     }
 }
 
 @mixin media-min-l {
-    @media screen and (max-width: $breakpoint-large-min) {
+    @media screen and (min-width: $breakpoint-large-min) {
         @content;
     }
 }
 
 @mixin media-min-xl {
-    @media screen and (max-width: $breakpoint-xlarge-min) {
+    @media screen and (min-width: $breakpoint-xlarge-min) {
         @content;
     }
 }

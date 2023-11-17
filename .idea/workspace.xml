@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал адаптив">
-      <change beforePath="$PROJECT_DIR$/src/static/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/scss/common.scss" afterDir="false" />
-    </list>
+    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал адаптив" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +76,7 @@
       <workItem from="1699842114922" duration="14163000" />
       <workItem from="1699967161208" duration="1546000" />
       <workItem from="1700047993342" duration="23476000" />
-      <workItem from="1700223246436" duration="13684000" />
+      <workItem from="1700223246436" duration="14107000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
@@ -122,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1700252453989</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="сделал адаптив">
+      <created>1700252711289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700252711289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="сделал адаптив">
+      <created>1700252923294</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700252923294</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
