@@ -240,7 +240,7 @@
             flex-direction: column;
             position: fixed;
             top: 0%;
-            height: 100vh;
+            bottom: 0;
             left: 0;
             right: 0;
             background-color: #fff;
@@ -1790,6 +1790,9 @@
             @include media-max-xl {
                 font-size: 20px;
                 max-width: 491px;
+            }
+            @include media-max-s {
+                font-size: 16px;
             }
 
             span {

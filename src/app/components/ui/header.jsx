@@ -11,13 +11,15 @@ export default function Header() {
 			let prevScrollpos = window.pageYOffset
 
 			window.onscroll = function () {
-				let currentScrollPos = window.pageYOffset
-				if (prevScrollpos > currentScrollPos) {
-					document.querySelector('.header').classList.remove('hidden')
-				} else {
-					document.querySelector('.header').classList.add('hidden')
+				if (window.pageYOffset > 200) {
+					let currentScrollPos = window.pageYOffset
+					if (prevScrollpos > currentScrollPos) {
+						document.querySelector('.header').classList.remove('hidden')
+					} else {
+						document.querySelector('.header').classList.add('hidden')
+					}
+					prevScrollpos = currentScrollPos
 				}
-				prevScrollpos = currentScrollPos
 			}
 		}, 500)
 	}, [])
