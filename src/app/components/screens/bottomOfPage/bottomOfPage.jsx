@@ -3,25 +3,38 @@
 import Link from 'next/link'
 import Footer from '@/app/components/ui/footer'
 import Image from 'next/image'
+import { useState } from 'react'
+
+const initValues = { name: '', email: '', message: '' }
+
+const initState = { values: initValues }
 
 export default function BottomOfPage() {
-	async function handleOnSubmit(e) {
-		e.preventDefault()
-		const formData = {}
-		Array.from(e.currentTarget.elements).forEach((field) => {
-			if (!field.name) return
-			formData[field.name] = field.value
-		})
-		console.log(formData)
+	const [state, setState] = useState(initState)
+
+	const { values } = state
+
+	const handleChange = ({ target }) =>
+		setState((prev) => ({
+			...prev,
+			values: {
+				...prev.values,
+				[target.name]: target.value
+			}
+		}))
+
+	const sendContactForm = async (data) =>
 		fetch('/api/mail', {
-			// fetch('https://sync-up-site-yrim.vercel.app/api/mail', {
 			method: 'POST',
-			body: JSON.stringify(formData)
-		}).then(function () {
-			document.querySelectorAll('form input').forEach((i) => {
-				i.value = ''
-			})
+			body: JSON.stringify(data),
+			headers: {
+				'Content-Type': 'application/json',
+				Accept: 'application/json'
+			}
 		})
+	const onSend = async (e) => {
+		e.preventDefault()
+		await sendContactForm(values)
 	}
 
 	return (
@@ -37,23 +50,23 @@ export default function BottomOfPage() {
 						</div>
 						<div className='form-content'>
 							<div className='form-left'>
-								<form method='post' onSubmit={handleOnSubmit}>
+								<form onSubmit={onSend}>
 									<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>
 										<div className='form-title'>Как к вам обращаться?</div>
-										<input minLength={4} type='text' name='name' required />
+										<input value={values.name} onChange={handleChange} minLength={4} type='text' name='name' required />
 									</div>
 									<div className='form-item required wow fadeInUp' data-wow-delay='0.4s'>
 										<div className='form-title'>Ссылка на соц сеть, телефон мессенджера либо E-mail</div>
-										<input minLength={5} type='text' name='email' required />
+										<input value={values.email} onChange={handleChange} minLength={5} type='text' name='email' required />
 									</div>
 									<div className='form-item wow fadeInUp' data-wow-delay='0.5s'>
 										<div className='form-title'>Сообщение для нас</div>
-										<input type='text' name='message' />
+										<input value={values.message} onChange={handleChange} type='text' name='message' />
 									</div>
 									<div className='form-item wow fadeInUp' data-wow-delay='0.6s'>
 										<button>Отправить</button>
 									</div>
-									<p className=' wow fadeInUp' data-wow-delay='0.7s'>
+									<p className='wow fadeInUp' data-wow-delay='0.7s'>
 										Отправляя эту форму, я подтверждаю, что прочитал и понял <Link href='/privacy-policy'>положение о конфиденциальности GreetRoute</Link> .
 									</p>
 								</form>

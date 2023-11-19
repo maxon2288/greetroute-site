@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал адаптив" />
+    <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="сделал адаптив">
+      <change afterPath="$PROJECT_DIR$/src/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/screens/bottomOfPage/bottomOfPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/mail.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,11 +52,11 @@
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\0personal\GreetRoute\greetroute-site\src" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\static\fonts\ibmplexsans" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\public\favicon" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app" />
       <recent name="C:\0personal\GreetRoute\greetroute-site\src\app\404" />
-      <recent name="C:\0personal\GreetRoute\greetroute-site\public\img\content" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +84,7 @@
       <workItem from="1699967161208" duration="1546000" />
       <workItem from="1700047993342" duration="23476000" />
       <workItem from="1700223246436" duration="14107000" />
+      <workItem from="1700409185564" duration="12721000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
