@@ -65,7 +65,19 @@ const handler = async (req, res) => {
     </table>
 	`
 	}
-	await transporter.sendMail(mailOptions)
+	// await transporter.sendMail(mailOptions)
+	await new Promise((resolve, reject) => {
+		// send mail
+		transporter.sendMail(mailOptions, (err, info) => {
+			if (err) {
+				console.error(err)
+				reject(err)
+			} else {
+				console.log(info)
+				resolve(info)
+			}
+		})
+	})
 	res.status(200).json({ name: 'good' })
 }
 
