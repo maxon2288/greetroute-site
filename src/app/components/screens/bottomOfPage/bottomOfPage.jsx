@@ -11,6 +11,7 @@ const initState = { values: initValues }
 
 export default function BottomOfPage() {
 	const [state, setState] = useState(initState)
+	const [showOk, setShowOk] = useState(false) // count - переменная состояния, setCount - функция для изменения этого состояния
 
 	const { values } = state
 
@@ -31,10 +32,17 @@ export default function BottomOfPage() {
 				'Content-Type': 'application/json',
 				Accept: 'application/json'
 			}
+		}).then((data) => {
+			if (data.ok) {
+				console.log(231332)
+				setShowOk(true)
+			}
 		})
+
 	const onSend = async (e) => {
 		e.preventDefault()
 		await sendContactForm(values)
+		await setShowOk(true)
 	}
 
 	return (
@@ -45,12 +53,12 @@ export default function BottomOfPage() {
 						<div className='form-top'>
 							<h2 className='wow fadeInUp'>Начнем сотрудничать?</h2>
 							<p className='wow fadeInUp' data-wow-delay='0.2s'>
-								Заполните форму и наш специалист свяжется с вами <span>в течении 20 минут</span>
+								Заполните форму и наш специалист свяжется с вами <span>в ближайшее время</span>
 							</p>
 						</div>
 						<div className='form-content'>
 							<div className='form-left'>
-								<form onSubmit={onSend}>
+								<form onSubmit={onSend} className={`${showOk ? 'hide' : ''}`}>
 									<div className='form-item required  wow fadeInUp' data-wow-delay='0.3s'>
 										<div className='form-title'>Как к вам обращаться?</div>
 										<input value={values.name} onChange={handleChange} minLength={4} type='text' name='name' required />
@@ -70,6 +78,13 @@ export default function BottomOfPage() {
 										Отправляя эту форму, я подтверждаю, что прочитал и понял <Link href='/privacy-policy'>положение о конфиденциальности GreetRoute</Link> .
 									</p>
 								</form>
+								<div className={`form-ok ${showOk ? 'active' : ''}`}>
+									<div>
+										<img src='/img/content/ok.svg' alt='' />
+									</div>
+									<h3>Ваша форма отправлена!</h3>
+									<p>Спасибо за то, что оставили заявку! Наш специалист скоро с вами свяжется по указанному вами способу связи.</p>
+								</div>
 							</div>
 							<div className='form-right'>
 								<div className='soc'>

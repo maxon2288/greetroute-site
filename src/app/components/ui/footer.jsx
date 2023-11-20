@@ -3,6 +3,7 @@
 import Link from 'next/link'
 
 export default function Footer() {
+	const year = new Date().getFullYear()
 	return (
 		<>
 			<div className='footer'>
@@ -11,7 +12,7 @@ export default function Footer() {
 						<Link href='/src/pages'>
 							<img src='/img/svg/footer-logo.svg' alt='' />
 						</Link>
-						© GreetRoute 2023. Все права защищены
+						© GreetRoute {year}. Все права защищены
 					</div>
 					<Link href='/privacy-policy'>Политика конфиденциальности</Link>
 				</div>
