@@ -4,6 +4,7 @@ import Header from '@/app/components/ui/header'
 import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import Reason from '@/app/components/screens/reason/reason'
 
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
@@ -59,7 +60,7 @@ export default function DentaCare() {
 							<div className='serv-item wow fadeInUp' data-wow-delay='0.6s'>
 								<h3>Платформа</h3>
 								<span>от 350 000 ₸</span>
-								<p>UX-проектирование структуры страниц и элементов, дизайн в Figma, кастомизация процессов под логику </p>
+								<p>UX-проектирование структуры страниц и элементов, дизайн в Figma, кастомизация структуры под логику работы сайта </p>
 								<Link href='/#form'>
 									Заказать
 									<img src='/img/svg/serv-icon.svg' alt='' />
@@ -75,37 +76,7 @@ export default function DentaCare() {
 					<div className='blur-1'></div>
 				</div>
 				<div className='wrapper'>
-					<div>
-						<div className='reason-top'>
-							<h2 className='wow fadeInUp'>Почему мы?</h2>
-							<p className=' wow fadeInUp' data-wow-delay='0.2s'>
-								Основные преимущества перед другими агентствами
-							</p>
-						</div>
-						<div className='reason-items'>
-							<div className='reason-item wow fadeInUp' data-wow-delay='0.3s'>
-								<div>
-									<img src='/img/svg/reason-1.svg' alt='' />
-								</div>
-								<h3>Стоимость</h3>
-								<p>Клиенты довольны результатами благодаря отличному сочетанию цены и качества.</p>
-							</div>
-							<div className='reason-item wow fadeInUp' data-wow-delay='0.5s'>
-								<div>
-									<img src='/img/svg/reason-2.svg' alt='' />
-								</div>
-								<h3>Окупаемость</h3>
-								<p>Наши услуги обеспечивают окупаемость благодаря привлечению клиентов.</p>
-							</div>
-							<div className='reason-item wow fadeInUp' data-wow-delay='0.7s'>
-								<div>
-									<img src='/img/svg/reason-3.svg' alt='' />
-								</div>
-								<h3>Качество</h3>
-								<p>Мы относимся к делу системно и серьезно, уделяя особое внимание качеству</p>
-							</div>
-						</div>
-					</div>
+					<Reason />
 				</div>
 			</div>
 			<BottomOfPage />

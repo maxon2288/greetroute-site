@@ -43,7 +43,7 @@ export default function DreamHouse() {
 					<div className='wrapper'>
 						<h2 className='wow fadeInUp'>Разработка сайта </h2>
 						<p className=' wow fadeInUp' data-wow-delay='0.2s'>
-							Создали сайт, который отражает профессиональность клиники и привлекает внимание клиентов.
+							Создали сайт, который отражает профессиональность компании и привлекает внимание клиентов.
 						</p>
 					</div>
 				</div>

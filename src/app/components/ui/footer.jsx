@@ -14,7 +14,17 @@ export default function Footer() {
 						</Link>
 						© GreetRoute {year}. Все права защищены
 					</div>
-					<Link href='/privacy-policy'>Политика конфиденциальности</Link>
+					<ul>
+						<li>
+							<Link href='/privacy-policy'>Политика конфиденциальности</Link>
+						</li>
+						<li>
+							<Link href='/public-offer'>Публичная оферта</Link>
+						</li>
+						<li>
+							<Link href='/consent'>Обработка данных</Link>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</>

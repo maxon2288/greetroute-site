@@ -24,7 +24,8 @@ export default function BottomOfPage() {
 			}
 		}))
 
-	const sendContactForm = async (data) =>
+	const sendContactForm = async (data) => {
+		document.querySelector('.form button').disabled = true
 		fetch('/api/mail', {
 			method: 'POST',
 			body: JSON.stringify(data),
@@ -38,6 +39,7 @@ export default function BottomOfPage() {
 				setShowOk(true)
 			}
 		})
+	}
 
 	const onSend = async (e) => {
 		e.preventDefault()
@@ -75,7 +77,7 @@ export default function BottomOfPage() {
 										<button>Отправить</button>
 									</div>
 									<p className='wow fadeInUp' data-wow-delay='0.7s'>
-										Отправляя эту форму, я подтверждаю, что прочитал и понял <Link href='/privacy-policy'>положение о конфиденциальности GreetRoute</Link> .
+										Отправляя эту форму, я подтверждаю, что принимаю <Link href='/privacy-policy'>политику конфиденциальности GreetRoute</Link> и согласен на <a href='/consent'>обработку персональных данных</a>.
 									</p>
 								</form>
 								<div className={`form-ok ${showOk ? 'active' : ''}`}>

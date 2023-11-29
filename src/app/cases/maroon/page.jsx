@@ -43,7 +43,7 @@ export default function Maroon() {
 					<div className='wrapper'>
 						<h2 className='wow fadeInUp'>Разработка сайта </h2>
 						<p className=' wow fadeInUp' data-wow-delay='0.2s'>
-							Мы создали сайт который удерживает потенциальных клиентов, раскрывает информацию о продукции, и убеждает в качестве и ценности косметики
+							Мы создали сайт, который удерживает потенциальных клиентов, раскрывает информацию о продукции и убеждает в качестве и ценности косметики
 						</p>
 					</div>
 				</div>
@@ -75,7 +75,7 @@ export default function Maroon() {
 							<div className='case-step-item wow fadeInUp' data-wow-delay='0.2s'>
 								<div className='case-step-number'>01</div>
 								<div className='case-step-title'>Проектирование и написание текста</div>
-								<div className='case-step-desc'>При прототипировании сайта "Dream House" разработали логическую структуру, а тексты описывают услуги и портфолио, отражая профессионализм компании.</div>
+								<div className='case-step-desc'>При прототипировании сайта "MAROON" разработали логическую структуру, и тексты, описывающие услуги и портфолио, которые отражают профессионализм компании.</div>
 							</div>
 							<div className='case-step-item wow fadeInUp' data-wow-delay='0.4s'>
 								<div className='case-step-number'>02</div>
@@ -117,7 +117,7 @@ export default function Maroon() {
 									<h3>
 										Собрали семантику для <br /> поисковой кампании
 									</h3>
-									<p>Определили через поисковые запросы, как потенциальные клиенты выбирают стоматологические услуги, и создали для них подходящую рекламу</p>
+									<p>Определили через поисковые запросы, как потенциальные клиенты выбирают косметику, и создали для них подходящую рекламу</p>
 								</div>
 								<div className='case-context-item  wow fadeInUp' data-wow-delay='0.4s'>
 									<div>

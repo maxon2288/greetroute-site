@@ -83,10 +83,7 @@ export default function Multikassa() {
 							<div className='case-step-item wow fadeInUp'>
 								<div className='case-step-number'>01</div>
 								<div className='case-step-title'>Проектирование и написание текста</div>
-								<div className='case-step-desc'>
-									Продумали и согласовали с клиентом архитектуру страниц будущего сайта "DentaCare". Затем мы приступили к написанию текстов. Мы выбрали официальный, но при этом дружелюбный тон для общения клиники с клиентами разных поколений, поскольку целевая аудитория в данной
-									нише самая разнообразная.
-								</div>
+								<div className='case-step-desc'>Начали с проектирования сайта для удобного и понятного использования посетителями. Затем мы приступили к написанию завлекающих текстов.</div>
 							</div>
 							<div className='case-step-item wow fadeInUp'>
 								<div className='case-step-number'>02</div>

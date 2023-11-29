@@ -2056,17 +2056,28 @@
             }
         }
 
-        & > a {
-            color: #7A7A7A;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            transition: opacity 0.2s;
-            white-space: nowrap;
 
-            &:hover {
-                opacity: 0.7;
+        ul {
+            display: flex;
+            gap: 16px;
+            @include media-max-m {
+                flex-direction: column;
+            }
+
+            li {
+                a {
+                    color: #7A7A7A;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    transition: opacity 0.2s;
+                    white-space: nowrap;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
             }
         }
     }
