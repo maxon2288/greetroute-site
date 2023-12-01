@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/mail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <workItem from="1700569838754" duration="4263000" />
       <workItem from="1700662855675" duration="592000" />
       <workItem from="1701089836367" duration="4327000" />
-      <workItem from="1701258222721" duration="18824000" />
+      <workItem from="1701258222721" duration="19469000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
@@ -296,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701464676582</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="docker update 1111444">
+      <created>1701465804069</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1701465804069</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +345,12 @@
           <line>76</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/api/mail.js</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
