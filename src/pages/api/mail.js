@@ -19,10 +19,10 @@
 // 	res.status(200).json({ status: 'ok' })
 // }
 
-const mail = require('@sendgrid/mail')
+const mail = require("@sendgrid/mail")
 
 export default async (req, res) => {
-	mail.setApiKey(process.env.MAIL_SENDGRID_PASS)
+	mail.setApiKey("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")
 	console.log(req.body)
 	const body = req.body
 	const message = ` 
@@ -48,14 +48,14 @@ export default async (req, res) => {
     </table>
 	`
 	const data = {
-		to: 'greetroute@gmail.com',
-		from: 'greetroute@gmail.com',
-		subject: 'New web form message!',
+		to: "greetroute@gmail.com",
+		from: "greetroute@gmail.com",
+		subject: "New web form message!",
 		text: message,
-		html: message.replace(/\r\n/g, '<br />')
+		html: message.replace(/\r\n/g, "<br />")
 	}
 	await mail.send(data).then(() => {
-		res.status(200).json({ status: 'Ok' })
+		res.status(200).json({ status: "Ok" })
 	})
 }
 
