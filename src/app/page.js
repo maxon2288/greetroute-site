@@ -46,7 +46,7 @@ export default function Home() {
 								</h1>
 							</div>
 							<p className='wow fadeInUp' data-wow-delay='0.2s'>
-								GreetRoute 111111 - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
+								GreetRoute 111111 432423 - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
 							</p>
 							<div className='wow fadeInUp' data-wow-delay='0.4s'>
 								<Link href='#form'>
