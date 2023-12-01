@@ -7,7 +7,7 @@ const handler = async (req, res) => {
 	const transporter = nodemailer.createTransport({
 		services: 'gmail',
 		host: 'smtp.gmail.com',
-		port: 587,
+		port: 465,
 		secure: false,
 		auth: {
 			user: email,
