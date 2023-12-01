@@ -26,7 +26,7 @@ export default function BottomOfPage() {
 
 	const sendContactForm = async (data) => {
 		document.querySelector('.form button').disabled = true
-		fetch('/api/mail', {
+		fetch('http://greetroute.kz/api/mail', {
 			method: 'POST',
 			body: JSON.stringify(data),
 			headers: {
