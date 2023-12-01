@@ -22,7 +22,7 @@
 const mail = require("@sendgrid/mail")
 
 export default async (req, res) => {
-	mail.setApiKey("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")
+	mail.setApiKey(process.env.MAIL_SENDGRID_PASS)
 	console.log(req.body)
 	const body = req.body
 	const message = ` 
