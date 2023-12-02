@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a822201-2a81-4697-b470-166666f0ccfb" name="Changes" comment="docker update 1111444">
-      <change beforePath="$PROJECT_DIR$/src/pages/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1700569838754" duration="4263000" />
       <workItem from="1700662855675" duration="592000" />
       <workItem from="1701089836367" duration="4327000" />
-      <workItem from="1701258222721" duration="21454000" />
+      <workItem from="1701258222721" duration="22831000" />
     </task>
     <task id="LOCAL-00001" summary="makfsjaklfd">
       <created>1699308459771</created>
@@ -317,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1701467976885</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="docker update 1111444">
+      <created>1701468174656</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1701468174656</updated>
+    </task>
+    <task id="LOCAL-00035" summary="docker update 1111444">
+      <created>1701468437162</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1701468437162</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

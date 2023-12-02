@@ -1,24 +1,24 @@
-'use client'
+"use client"
 
-import Image from 'next/image'
-import Header from '@/app/components/ui/header'
-import Link from 'next/link'
-import BottomOfPage from '@/app/components/screens/bottomOfPage/bottomOfPage'
-import { useEffect } from 'react'
-import Reason from '@/app/components/screens/reason/reason'
+import Image from "next/image"
+import Header from "@/app/components/ui/header"
+import Link from "next/link"
+import BottomOfPage from "@/app/components/screens/bottomOfPage/bottomOfPage"
+import { useEffect } from "react"
+import Reason from "@/app/components/screens/reason/reason"
 
-const isServer = typeof window === 'undefined'
-const WOW = !isServer ? require('wow.js') : null
+const isServer = typeof window === "undefined"
+const WOW = !isServer ? require("wow.js") : null
 
 export default function Home() {
 	useEffect(() => {
 		if (!window.location.hash) {
-			window.scrollTo({ top: 0, left: 0, behavior: 'instant' })
+			window.scrollTo({ top: 0, left: 0, behavior: "instant" })
 		}
-		document.querySelector('body').style.visibility = 'visible'
-		document.querySelector('body').style.opacity = 1
+		document.querySelector("body").style.visibility = "visible"
+		document.querySelector("body").style.opacity = 1
 
-		document.querySelector('body').classList.remove('err404-body')
+		document.querySelector("body").classList.remove("err404-body")
 		new WOW({ mobile: false }).init()
 	}, [])
 	return (
@@ -46,7 +46,7 @@ export default function Home() {
 								</h1>
 							</div>
 							<p className='wow fadeInUp' data-wow-delay='0.2s'>
-								GreetRoute - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
+								GreetRoute1111 - <b>одно из лучших</b> агентств по разработке и продвижению сайтов <b>в Казахстане</b>.
 							</p>
 							<div className='wow fadeInUp' data-wow-delay='0.4s'>
 								<Link href='#form'>
@@ -180,7 +180,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='cases' id={'cases'}>
+			<div className='cases' id={"cases"}>
 				<div className='wrapper'>
 					<div>
 						<div className='background-blurs'>
